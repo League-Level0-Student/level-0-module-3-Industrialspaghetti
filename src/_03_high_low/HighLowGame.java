@@ -19,9 +19,19 @@ public class HighLowGame {
 		// 11. Repeat steps 1 to 10 ten times
 		
 			// 1. Ask the user for a guess using a pop-up window, and save their response 
-JOptionPane.showInputDialog(null, "enter a number through 1-100");
+String number = JOptionPane.showInputDialog(null, "enter a number through 1-100");
 			// 4. Convert the users’ answer to an int (Integer.parseInt(string))
-			
+			int answer = Integer.parseInt(number);
+			if (random == answer){
+				JOptionPane.showMessageDialog(null, "you win");
+				System.exit(0);
+			}
+			if (random <= answer) {
+				JOptionPane.showMessageDialog(null,"too high, you lose");
+			}
+			if (random >= answer) {
+				JOptionPane.showMessageDialog(null, "too low, you lose");
+			}
 			// 5. if the guess is correct
 				// 6. Win
 				// 12. Use "System.exit(0);" to quit the game if the user guessed the right answer.
