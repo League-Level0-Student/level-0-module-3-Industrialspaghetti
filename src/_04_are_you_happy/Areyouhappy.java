@@ -10,7 +10,13 @@ public static void main(String[] args) {
 	
 	}
 	else if (answer.contentEquals("no")){
-		String answer = JOptionPane.showInputDialog(null,"do you want to be happy?");
+		String answer2 = JOptionPane.showInputDialog(null,"do you want to be happy?");
+		if (answer2.contentEquals("yes")) {
+			JOptionPane.showMessageDialog(null,"do something you enjoy");
+		}
+		else if (answer2.contentEquals("no")) {
+			
+		}
 	}
 	
 }
