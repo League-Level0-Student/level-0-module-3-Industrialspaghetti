@@ -15,7 +15,7 @@ public static void main(String[] args) {
 			JOptionPane.showMessageDialog(null,"do something you enjoy");
 		}
 		else if (answer2.contentEquals("no")) {
-			
+	    JOptionPane.showMessageDialog(null, "keep doing whatever you're doing");
 		}
 	}
 	

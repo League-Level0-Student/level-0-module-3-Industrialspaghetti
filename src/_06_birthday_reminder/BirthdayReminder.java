@@ -13,7 +13,7 @@ public class BirthdayReminder {
 		// 1. correct the birthdays for your family below
 		String momsBirthday = "January 24th";
 		String dadsBirthday = "June 9th";
-		String myBirthday = "April 16th";
+		String myBirthday = "October 22nd";
 
 		// 2. Find out which birthday the user wants and and store their response in a variable
 	
