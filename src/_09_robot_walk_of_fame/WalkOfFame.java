@@ -26,6 +26,7 @@ public class WalkOfFame {
 		rob.move(70);
 		rob.turn(144);
 		rob.move(70);
+		
 		// 3. Set the size of the star to 30.
 
 		/** THE CHALLENGE: **/
