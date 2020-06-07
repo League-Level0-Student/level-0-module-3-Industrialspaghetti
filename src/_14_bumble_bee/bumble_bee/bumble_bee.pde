@@ -6,7 +6,7 @@ Use Modulo to make the colors alternate
 */
 int x = 10; 
 int y = 13; 
-for(int i=0; i<20;i++){
+for(int i=0; i<12;i++){
   if (i % 2 == 0)
   fill(#FFEC12);//yellow
 else
@@ -14,7 +14,12 @@ else
   ellipse(x,y,70,70);
   x += 30;
   y += 35;
+  
 }
+x += 1;
+y += 2;
+drawBeeFace (x,y);
+
 }
 
 void drawFlower(int x, int y) {
