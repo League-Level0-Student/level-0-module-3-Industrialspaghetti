@@ -4,10 +4,10 @@ public class Checkpoint {
 		for (int i = 0; i <= 500; i++) {
 		
 		    if ( i%2 == 0) {
-		    	System.out.println("nothing");
+		    
 		    }
 		    else {
-		        System.out.println("number is odd");
+		        System.out.println( i );
 		    }
 			
 		}
